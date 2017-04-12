@@ -1,0 +1,28 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinImageEditor", "XamarinImageEditor\XamarinImageEditor.csproj", "{ED5E15EA-0B00-4682-BEEA-8C71AD4F9F2B}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SharedProject", "SharedProject\SharedProject.shproj", "{C39042A8-EBC0-4A5B-9777-F25C0F7ED493}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SharedProject\SharedProject.projitems*{c39042a8-ebc0-4a5b-9777-f25c0f7ed493}*SharedItemsImports = 13
+		SharedProject\SharedProject.projitems*{ed5e15ea-0b00-4682-beea-8c71ad4f9f2b}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED5E15EA-0B00-4682-BEEA-8C71AD4F9F2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5E15EA-0B00-4682-BEEA-8C71AD4F9F2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5E15EA-0B00-4682-BEEA-8C71AD4F9F2B}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{ED5E15EA-0B00-4682-BEEA-8C71AD4F9F2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5E15EA-0B00-4682-BEEA-8C71AD4F9F2B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
